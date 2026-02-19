@@ -3,7 +3,7 @@ using PaymentSystem.Payments;
 namespace PaymentSystem.PagSeguro;
 
 public sealed class PagSeguroCardValidator
-    : ICardValidator
+    : IPaymentValidator
 {
     public bool ValidateCard(string cardNumber)
     {

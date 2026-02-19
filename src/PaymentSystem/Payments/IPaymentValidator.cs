@@ -1,6 +1,6 @@
 namespace PaymentSystem.Payments;
 
-public interface ICardValidator
+public interface IPaymentValidator
 {
     bool ValidateCard(string cardNumber);
 }

@@ -2,7 +2,7 @@ namespace PaymentSystem.Payments;
 
 public interface IPaymentProviderFactory
 {
-    ICardValidator CreateCardValidator();
+    IPaymentValidator CreateCardValidator();
     IPaymentProcessor CreateProcessor();
     IPaymentLogger CreateLogger();
 }

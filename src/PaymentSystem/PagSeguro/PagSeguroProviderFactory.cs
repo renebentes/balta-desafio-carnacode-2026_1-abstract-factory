@@ -5,7 +5,7 @@ namespace PaymentSystem.PagSeguro;
 public sealed class PagSeguroProviderFactory
     : IPaymentProviderFactory
 {
-    public ICardValidator CreateCardValidator()
+    public IPaymentValidator CreateCardValidator()
         => new PagSeguroCardValidator();
 
     public IPaymentLogger CreateLogger()
